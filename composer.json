@@ -1,0 +1,26 @@
+{
+    "name": "brianzeligson/PROJECT",
+    "description": "DESCRIPTION",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Brian Zeligson",
+            "email": "brian.zeligson@gmail.com"
+        }
+    ],
+    "require": {
+      "blainesch/prettyarray": "dev-master",
+      "slim/slim": "dev-master",
+      "brianzeligson/mabandit": "dev-master"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~4.3",
+      "psy/psysh": "dev-master"
+    },
+    "autoload": {
+      "psr-4": {
+        "NAMESPACE\\": "src/ProjectFolder"
+      }
+    },
+    "minimum-stability": "dev"
+}
