@@ -1293,12 +1293,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/beezee/multiarmedbandit.git",
-            "reference": "a3dba89caff3f8444091c8af7946a1760c6729e9"
+            "reference": "7c0972b642e077e3d23e94d1ab7bd9fef56fdbc2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/beezee/multiarmedbandit/zipball/a3dba89caff3f8444091c8af7946a1760c6729e9",
-            "reference": "a3dba89caff3f8444091c8af7946a1760c6729e9",
+            "url": "https://api.github.com/repos/beezee/multiarmedbandit/zipball/7c0972b642e077e3d23e94d1ab7bd9fef56fdbc2",
+            "reference": "7c0972b642e077e3d23e94d1ab7bd9fef56fdbc2",
             "shasum": ""
         },
         "require": {
@@ -1310,7 +1310,7 @@
             "phpunit/phpunit": "~4.3",
             "psy/psysh": "dev-master"
         },
-        "time": "2014-11-14 23:29:57",
+        "time": "2014-11-15 00:09:19",
         "type": "library",
         "installation-source": "source",
         "autoload": {
