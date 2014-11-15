@@ -8,7 +8,7 @@ $bandit = \MaBandit\MaBandit::withStrategy($strategy)
   ->withPersistor($persistor);
 try {
   $experiment = $bandit->getExperiment('demo');
-} catch(Exception $e) {
+} catch(\MaBandit\Exception\ExperimentNotFoundException $e) {
   $experiment = $bandit->createExperiment('demo',
     array('blue', 'green', 'red', 'yellow'));
 }
