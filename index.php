@@ -19,8 +19,7 @@ $app->get('/', function() use($bandit, $experiment) {
 });
 
 $app->get('/vote/:val', function($val) use($bandit, $app) {
-  $f = new \MaBandit\Persistence\PersistedLever($val, 'demo');
-  $l = $bandit->getPersistor()->loadLever($f);
+  $l = $bandit->getLeverByExperimentAndValue('demo', $val);
   $bandit->registerConversion($l);
   $app->redirect('/');
 });
